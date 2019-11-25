@@ -38,7 +38,7 @@ static const struct
   GstVideoFormat format;
 } format_map[] = {
 #define DEF_FMT(fourcc, fmt) \
-  { DRM_FORMAT_##fourcc,GST_VIDEO_FORMAT_##fmt }
+  { DRM_FORMAT_NV12,GST_VIDEO_FORMAT_##fmt }
 
   /* DEF_FMT (XRGB1555, ???), */
   /* DEF_FMT (XBGR1555, ???), */
